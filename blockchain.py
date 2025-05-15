@@ -210,4 +210,4 @@ if __name__ == '__main__':
     port = 5001
     if len(argv) > 1:
         port = int(argv[1])
-    app.run(host='127.0.0.1', port=port)
+    app.run(host='localhost', port=port)
