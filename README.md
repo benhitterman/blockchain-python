@@ -36,8 +36,8 @@ python blockchain.py 5002
 
 #### ➕ Add a transaction
 
-POST http://localhost:5001/transactions/new  
-Body (JSON):<br />
+POST http://localhost:5002/transactions/new  
+Body (JSON):
 
 ```json
 {
