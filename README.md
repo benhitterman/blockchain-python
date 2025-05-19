@@ -2,7 +2,7 @@
 
 A basic, functional blockchain implementation in Python.
 
-## 🚀 Features
+## Features
 
 - Build and manage a blockchain from scratch in Python
 - Add transactions and mine blocks with proof-of-work
@@ -10,7 +10,7 @@ A basic, functional blockchain implementation in Python.
 - Achieve consensus across nodes (longest valid chain wins)
 - Run multiple Flask servers locally to simulate a decentralized network
 
-## 🛠 How to Run
+## How to Run
 
 ### 1. Clone and set up
 
@@ -34,7 +34,7 @@ python blockchain.py 5002
 
 ### 3. Interact using Postman
 
-#### ➕ Add a transaction
+#### Add a transaction
 
 POST http://localhost:5002/transactions/new  
 Body (JSON):
@@ -47,11 +47,11 @@ Body (JSON):
 }
 ```
 
-#### ⛏️ Mine a block
+#### Mine a block
 
 GET http://localhost:5002/mine
 
-#### 🔗 Register another node
+#### Register another node
 
 POST http://localhost:5001/nodes/register  
 Body (JSON):
@@ -62,15 +62,15 @@ Body (JSON):
 }
 ```
 
-#### 🔄 Resolve chain with consensus
+#### Resolve chain with consensus
 
 GET http://localhost:5001/nodes/resolve
 
-#### 🧾 View the blockchain
+#### View the blockchain
 
 GET http://localhost:5001/chain
 
-## 📬 API Endpoints
+## API Endpoints
 
 | Method | Endpoint            | Description                 |
 | ------ | ------------------- | --------------------------- |
